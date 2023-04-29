@@ -1,0 +1,21 @@
+1) first we need to create screen (in order to create screen we use turtle library Screen class)
+ - height 600
+ - width 800
+
+ - in order to keep screen we need to use screen exitonclick method
+ - screen title should be "PONG". we can do it by screen title method
+
+2) it is time to create a paddle
+ - width = 20
+ - height = 100
+ - x_pos = 350
+ - y_pos = 0
+
+ - first need to import turtle class
+ - create paddle variable inside Turtle()
+ - then making paddle square with a shape() method
+ - need to make color of the paddle white with color() method and stetch the paddle with shapesize() method
+ - stretch must be stretch_len = 1, stretch_wid = 5
+
+ - paddle penup() and goto(350, 0) position to make it to move border of the screen
+ 
